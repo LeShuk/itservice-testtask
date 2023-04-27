@@ -1,0 +1,17 @@
+.button {
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.dark {
+    border: 2px solid #121216;
+    color: white;
+    background: #121216;
+}
+
+.light {
+    border: 2px solid #afafaf;
+    color: #121216;
+    background: #afafaf;
+}

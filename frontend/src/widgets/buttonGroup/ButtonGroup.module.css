@@ -1,0 +1,7 @@
+.buttonGroup {
+    display: flex;
+}
+
+Button {
+    margin-left: 15px;
+}

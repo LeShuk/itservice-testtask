@@ -3,7 +3,6 @@
         xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
-		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd"
->
-    <include file="db/001_two_arrays/!two_arrays_master.xml"/>
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <include file="db/001_two_arrays/001_create_table.xml"/>
 </databaseChangeLog>

@@ -1,0 +1,9 @@
+input[type=file] {
+    display: none;
+}
+
+.file_upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

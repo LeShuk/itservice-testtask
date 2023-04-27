@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet id="001_create_table" author="LeShuk">
+        <preConditions>
+            <not>
+                <tableExists tableName="TWO_ARRAYS"/>
+            </not>
+        </preConditions>
+        <createTable tableName="TWO_ARRAYS">
+            <column name="ID" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="STRINGS" type="varchar2(10000)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="SUBSTRINGS" type="varchar2(10000)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
