@@ -1,0 +1,14 @@
+.item_card {
+    display: flex;
+    padding: 5px 15px;
+    border: 2px solid #6f6f6f;
+    margin-top: 15px;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item_buttons {
+    display: flex;
+    margin-left: auto;
+}

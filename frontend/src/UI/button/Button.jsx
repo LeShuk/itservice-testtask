@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({variant = 'dark', children}, ...other) => {
+const Button = ({variant = 'dark', children, ...other}) => {
     return (
         <button
             className={[

@@ -1,0 +1,18 @@
+.id {
+    color: #6f6f6f;
+    font-size: 0.75rem;
+}
+
+.data {
+    margin-left: 15px;
+    padding: 5px 0;
+}
+
+.strings {
+ display: flex;
+}
+
+.subStrings {
+    display: flex;
+    margin-top: 10px;
+}

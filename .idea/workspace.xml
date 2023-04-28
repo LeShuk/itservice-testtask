@@ -4,36 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7a37f0-4fc8-4d5b-9e4e-04a6929f86d8" name="Changes" comment="Basic: основные функции backend&#10;- создан функционал backend для задачи №1&#10;- частично созданы элементы gui-интерфейса">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/controller/TwoArraysController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/dto/TwoArraysDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/model/TwoArraysModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/repo/TwoArraysRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/service/TwoArraysService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/service/impl/TwoArraysServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/db/001_two_arrays/!two_arrays_master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/db/001_two_arrays/001_create_table.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/UI/button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/UI/button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/UI/upload/Upload.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/UI/upload/Upload.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/buttonGroup/ButtonGroup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/buttonGroup/ButtonGroup.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6f7a37f0-4fc8-4d5b-9e4e-04a6929f86d8" name="Changes" comment="WIP: элементы интерфейса&#10;- созданы элементы gui-интерфейса: кнопки, модальные окна, списки, etc;&#10;- реализована загрузка данных задачи с бекенда;&#10;- бэкенд: добавлены тестовые данные в бд;&#10;- бэкенд: настроены cors политики.">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/db/001_two_arrays/002_insert_test_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/itemcard/ItemCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/itemcard/ItemCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/modal/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/modal/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/tabs/TabContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/tabs/TabContent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/tabs/Tabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/UI/tabs/Tabs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/TwoArraysService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MainPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MainPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/twoarrays/TwoArraysItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/twoarrays/TwoArraysItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/twoarrays/TwoArraysList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/twoarrays/TwoArraysList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/twoarrays/TwoArraysLoad.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/widgets/twoarrays/TwoArraysLoad.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/db/master-change-log.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/master-change-log.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/SpringTestTaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/SpringTestTaskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/db/001_two_arrays/!two_arrays_master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/db/001_two_arrays/!two_arrays_master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/UI/button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/UI/button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/widgets/buttonGroup/ButtonGroup.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/widgets/buttonGroup/ButtonGroup.module.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +98,7 @@
       <recent name="$PROJECT_DIR$/frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/UI" />
       <recent name="$PROJECT_DIR$/frontend/src/UI/button" />
     </key>
   </component>
@@ -137,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678105342989</updated>
       <workItem from="1678105344044" duration="6086000" />
-      <workItem from="1682597223516" duration="14861000" />
+      <workItem from="1682597223516" duration="30516000" />
     </task>
     <task id="LOCAL-00001" summary="Basic: настройка скелета проекта&#10;- Созданы модули backend и frontend;&#10;- Настроен maven на корректную сборку проекта.">
       <created>1678108946834</created>
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678108946834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic: основные функции backend&#10;- создан функционал backend для задачи №1&#10;- частично созданы элементы gui-интерфейса">
+      <created>1682615403784</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682615403784</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,19 +180,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic: настройка скелета проекта&#10;- Созданы модули backend и frontend;&#10;- Настроен maven на корректную сборку проекта." />
     <MESSAGE value="Basic: основные функции backend&#10;- создан функционал backend для задачи №1&#10;- частично созданы элементы gui-интерфейса" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic: основные функции backend&#10;- создан функционал backend для задачи №1&#10;- частично созданы элементы gui-интерфейса" />
+    <MESSAGE value="WIP: элементы интерфейса&#10;- созданы элементы gui-интерфейса: кнопки, модальные окна, списки, etc;&#10;- реализована загрузка данных задачи с бекенда;&#10;- бэкенд: добавлены тестовые данные в бд;&#10;- бэкенд: настроены cors политики." />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP: элементы интерфейса&#10;- созданы элементы gui-интерфейса: кнопки, модальные окна, списки, etc;&#10;- реализована загрузка данных задачи с бекенда;&#10;- бэкенд: добавлены тестовые данные в бд;&#10;- бэкенд: настроены cors политики." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/controller/TwoArraysController.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/backend/src/main/java/org/example/itservicetesttask/service/impl/TwoArraysServiceImpl.java</url>
-          <line>50</line>
+          <line>36</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

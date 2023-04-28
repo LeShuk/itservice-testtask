@@ -1,10 +1,11 @@
-import ButtonGroup from "./widgets/buttonGroup/ButtonGroup";
+import MainPage from "./pages/MainPage";
 
 function App() {
+
   return (
-    <div >
-        <ButtonGroup/>
-    </div>
+    <>
+        <MainPage/>
+    </>
   );
 }
 
